@@ -1,0 +1,25 @@
+{
+  "name": "游礼",
+  "appid": "",
+  "description": "基于LBS的特产盲盒交换小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "用于获取地理位置以匹配特产"
+      }
+    },
+    "requiredPrivateInfos": ["getLocation", "chooseLocation"]
+  },
+  "uniStatistics": {
+    "enable": false
+  }
+}

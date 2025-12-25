@@ -1,0 +1,102 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "游礼"
+      }
+    },
+    {
+      "path": "pages/market/index",
+      "style": {
+        "navigationBarTitleText": "特产市场"
+      }
+    },
+    {
+      "path": "pages/market/detail",
+      "style": {
+        "navigationBarTitleText": "商品详情"
+      }
+    },
+    {
+      "path": "pages/market/publish",
+      "style": {
+        "navigationBarTitleText": "发布商品"
+      }
+    },
+    {
+      "path": "pages/map/index",
+      "style": {
+        "navigationBarTitleText": "点亮中国"
+      }
+    },
+    {
+      "path": "pages/welfare/index",
+      "style": {
+        "navigationBarTitleText": "宝贝回家"
+      }
+    },
+    {
+      "path": "pages/order/list",
+      "style": {
+        "navigationBarTitleText": "我的订单"
+      }
+    },
+    {
+      "path": "pages/order/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff6b6b",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/market/index",
+        "text": "市场",
+        "iconPath": "static/tabbar/market.png",
+        "selectedIconPath": "static/tabbar/market-active.png"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "text": "地图",
+        "iconPath": "static/tabbar/map.png",
+        "selectedIconPath": "static/tabbar/map-active.png"
+      },
+      {
+        "pagePath": "pages/welfare/index",
+        "text": "公益",
+        "iconPath": "static/tabbar/welfare.png",
+        "selectedIconPath": "static/tabbar/welfare-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/profile.png",
+        "selectedIconPath": "static/tabbar/profile-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "游礼",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f8f8f8"
+  }
+}
